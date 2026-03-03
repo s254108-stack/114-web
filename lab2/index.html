@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>我的第一個網頁</title>
+    <style>
+        /* 這裡就是 CSS，幫網頁化妝 */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            padding: 50px;
+        }
+        h1 {
+            color: #2c3e50;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>你好！我是陳宜均</h1>
+    <p>這是我親手寫的第一個網頁。</p>
+    
+    <button onclick="showMessage()">點擊我有驚喜</button>
+
+    <script>
+        // 這裡就是 JavaScript，控制互動
+        function showMessage() {
+            alert("恭喜你！你已經踏出網頁開發的第一步了！");
+        }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+/* 這是內部式 CSS 的寫法 */
+body {
+    background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%); /* 漸層背景 */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3); /* 文字陰影 */
+    font-size: 3rem;
+}
+
+.card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1); /* 卡片陰影 */
+    transition: transform 0.3s; /* 滑鼠移入的動畫 */
+}
+
+.card:hover {
+    transform: scale(1.05); /* 放大效果 */
+}
