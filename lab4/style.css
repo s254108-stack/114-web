@@ -1,0 +1,89 @@
+/* 整體設定 */
+body {
+    font-family: "Microsoft JhengHei", Arial, sans-serif;
+    background-color: #eef5fb;
+    margin: 0;
+    padding: 30px;
+    color: #2c3e50;
+}
+
+/* 主標題 */
+h1 {
+    text-align: center;
+    color: #1f4e79;
+    margin-bottom: 30px;
+}
+
+/* 副標題 */
+h2 {
+    color: #2a6fa1;
+    border-left: 6px solid #5dade2;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+/* 清單區塊 */
+ul, ol {
+    background-color: #ffffff;
+    padding: 15px 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* 清單項目 */
+li {
+    margin: 8px 0;
+}
+
+/* 表格 */
+table {
+    width: 100%;
+    max-width: 650px;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* 表頭 */
+th {
+    background-color: #3498db;
+    color: white;
+    padding: 12px;
+}
+
+/* 表格內容 */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* 斑馬紋 */
+tr:nth-child(even) {
+    background-color: #f2f8fc;
+}
+
+/* 滑鼠移上效果 */
+tr:hover {
+    background-color: #d6eaf8;
+}
+
+/* 連結按鈕 */
+a {
+    display: inline-block;
+    margin-top: 25px;
+    text-decoration: none;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+/* hover 效果 */
+a:hover {
+    background-color: #21618c;
+}
